@@ -1,0 +1,12 @@
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+    /* padding: 5%; */
+}
+
+.margin{
+    margin: 5% 0;
+}
