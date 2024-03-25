@@ -48,9 +48,8 @@ The project's folder structure is organized for ease of development and maintena
 
 - **`src` Directory:** Contains all the source code for the React application.
   - **`components` Directory:** Houses reusable components used throughout the application, such as chart components and UI elements.
-  - **`pages` Directory:** Includes individual pages/routes of the dashboard, each representing a different set of insights or data visualization.
-  - **`services` Directory:** Contains service files responsible for fetching mock AI data from the backend.
-  - **`styles` Directory:** Stores CSS files for styling and layout. The theme color `#FFF5EA` is maintained throughout.
+  - **`Data` Directory:** Contains mock AI data in JSON file.
+  - **`App.css` :** Stores CSS files for styling and layout. The theme colour `#FFF5EA` is maintained throughout.
   - **`App.js`:** Entry point of the application, routing is managed here.
   - **`index.js`:** Renders the root component (`App`) into the DOM.
 
@@ -61,7 +60,6 @@ The AI Insights Dashboard relies on several dependencies to function properly. H
 - **React:** JavaScript library for building user interfaces.
 - **Recharts:** Charting library for React applications, used for data visualization.
 - **CSS3:** Styling and layout are done using CSS3.
-- **React Router:** Library for routing in React applications, used for navigation between dashboard pages.
 
 ## Contributing
 
